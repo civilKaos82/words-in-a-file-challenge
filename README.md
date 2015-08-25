@@ -20,7 +20,7 @@ most_frequent_words('some_file.txt', 3)
 most_frequent_words('some_file.txt', 4)
 # => { "the" => 35, "I" => 20, "a" => 19, "like" => 10 }
 ```
-*Figure 1*. Determining the three most frequent words in a given file. 
+*Figure 1*. Determining the most frequent words in a given file. 
 
 Let's start by writing a basic version of our method.  When we call the method, we'll pass in the file we want to parse and the number of most frequently occurring words we want returned.  The method should count how many times unique words occur in the given file and return the specified number of most frequently occurring words.
 
